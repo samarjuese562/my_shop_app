@@ -19,6 +19,7 @@ class MyShopApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'MyShop App',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: LoginPage(),
